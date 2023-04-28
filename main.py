@@ -40,6 +40,7 @@ def calcular():
 #Criando Janela
 janela = Tk()
 janela.geometry('310x400')
+janela.resizable(width=False, height=False)#Não pode modificar o tamanho da tela
 janela.title('Calculadora de Idade')
 
 
